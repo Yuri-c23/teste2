@@ -16,7 +16,7 @@ li {
  font-family: OCR A Std, monospace;
  text-decoration: none;
 }
-div {
+div.home {
  background-color: #2C5680;
  flex-direction: in-line;
  width: 100vw;
@@ -39,7 +39,7 @@ p {
  border-radius: 20px 50px;
  padding: 1px 5px 1px 5px;
 }
-img {
+a .dog{
   height: 50px;
   top: 22px;
   left: 90;
@@ -48,8 +48,33 @@ img {
   display: inline-block;
   position: absolute;
 }
+div.paisagem {
+  position:relative;
+  width: 100vw;
+  height:;
+}
+img.paisagem {
+  width: 100vw;
+  height: ;
+}
+.title {
+  position: absolute;
+  width: 100vw;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background-color: #3E4452;
+  opacity: 0.9;
+  color: #fff;
+  font-weight: 900;
+  font-size: 100px;
+  font-family: sans-serif;
+  mix-blend-mode: multiply;
+  user-select: nome;
+  text-align: center;
+}
 @media screen and (max-width:430px) {
-  div {
+  div.home {
     font-size: 10px;
 }
   li {
@@ -57,7 +82,14 @@ img {
  margin-left: -35px;
  width: 60px;
 }
+  .title {
+    font-weight: 800;
+    font-size: 60px;
+}
 }
 body {
    background-color: #7FFFD4;
 }
+
+
+
