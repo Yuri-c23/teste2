@@ -71,9 +71,6 @@
     mix-blend-mode: multiply;
     user-select: nome;
     text-align: center;
-    
-    
-    
   }
   @media screen and (max-width:430px) {
     div.home {
