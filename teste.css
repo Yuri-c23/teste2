@@ -16,7 +16,7 @@ li {
  font-family: OCR A Std, monospace;
  text-decoration: none;
 }
-div.home {
+div .home {
  background-color: #2C5680;
  flex-direction: in-line;
  width: 100vw;
@@ -48,7 +48,7 @@ a .dog{
   display: inline-block;
   position: absolute;
 }
-div.paisagem {
+div .paisagem {
   position:relative;
   width: 100vw;
   height:;
@@ -74,7 +74,7 @@ img.paisagem {
   text-align: center;
 }
 @media screen and (max-width:430px) {
-  div.home {
+  div .home {
     font-size: 10px;
 }
   li {
